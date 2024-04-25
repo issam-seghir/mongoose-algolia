@@ -1,5 +1,5 @@
 {
-  "name": "@avila-tek/mongoose-algolia",
+  "name": "@issam-seghir/mongoose-algolia",
   "version": "1.6.0",
   "type": "module",
   "main": "dist/at-mongoose-algolia.umd.cjs",
@@ -16,9 +16,9 @@
   ],
   "license": "MIT",
   "author": {
-    "name": "Avila Tek LLC",
-    "email": "info@avilatek.com",
-    "url": "https://avilatek.com"
+    "name": "Issam Seghir",
+    "email": "seghirissam5@gmail.com",
+    "url": "https://github.com/issam-seghir"
   },
   "engines": {
     "node": ">= 18.0.0"
