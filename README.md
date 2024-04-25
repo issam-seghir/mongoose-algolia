@@ -1,10 +1,10 @@
-# @avila-tek/mongoose-algolia
+# @issam-seghir/mongoose-algolia
 
-> ❗️ This lib is an updated fork of [crsten/mongoose-algolia](https://github.com/crsten/mongoose-algolia)
+> ❗️ This lib is an updated fork of [avila-tek/mongoose-algolia](https://github.com/avila-tek/mongoose-algolia)
 
 This is [Mongoose](http://mongoosejs.com/) plugin to automatically sync documents to [Algolia](https://www.algolia.com/)
 
-- [@avila-tek/mongoose-algolia](#avila-tekmongoose-algolia)
+- [@issam-seghir/mongoose-algolia](#issam-seghirmongoose-algolia)
   - [Installation](#installation)
     - [Usage](#usage)
   - [Options](#options)
@@ -26,14 +26,14 @@ This is [Mongoose](http://mongoosejs.com/) plugin to automatically sync document
 
 ## Installation
 
-`npm install --save @avila-tek/mongoose-algolia`
+`npm install --save @issam-seghir/mongoose-algolia`
 
 ### Usage
 
 ```ts
 import { Model, Schema, Types, model } from 'mongoose';
-import { algoliaIntegration } from '@avila-tek/mongoose-algolia';
-import type { TStaticMethods } from '@avila-tek/mongoose-algolia';
+import { algoliaIntegration } from '@issam-seghir/mongoose-algolia';
+import type { TStaticMethods } from '@issam-seghir/mongoose-algolia';
 
 interface ICharacter {
   name: {
