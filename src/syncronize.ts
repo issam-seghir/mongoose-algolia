@@ -27,6 +27,9 @@ export async function synchronize<T = any>(
     } else {
       query = this.find();
     }
+    if (options.selector) {
+      query = query.select(options.selector);
+    }
     docs = await query.exec();
   } catch (err) {
     console.error(
